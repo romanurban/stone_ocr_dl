@@ -1,0 +1,9 @@
+data_dir: data
+batch_size: 8
+max_epochs: 32
+encoder_name: resnet34
+lr: 0.001
+pretrained: true
+experiment_name: resnet
+precision: 32-true
+model_type: resnet

@@ -1,0 +1,9 @@
+data_dir: data                     # path to your dataset root
+batch_size: 8                     # same batch size used in training
+max_epochs: 32                    # optional for eval-only
+encoder_name: resnet34            # used by UNet/UNet++ models
+lr: 0.001                         # used when initializing model class
+pretrained: false                 # don't re-download weights during eval
+precision: 32-true                # matches training precision
+model_type: unet                 # not used in ensemble directly, but required by loaders
+experiment_name: ensemble_eval   # used for logs if needed

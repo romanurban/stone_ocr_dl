@@ -1,0 +1,13 @@
+data_dir: data
+batch_size: 8
+max_epochs: 32
+encoder_name: resnet34
+lr: 0.001
+pretrained: true
+use_unetplusplus: true
+experiment_name: unetpp
+precision: 32-true
+freeze_encoder: false
+use_focal_loss: false
+class_weights: null     
+model_type: unetpp

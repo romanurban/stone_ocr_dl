@@ -1,0 +1,7 @@
+data_dir: data
+batch_size: 2
+max_epochs: 1
+encoder_name: resnet18
+lr: 0.01
+pretrained: true
+precision: 32-true

@@ -1,0 +1,10 @@
+model_type: att_unet        # "unet", "unetpp", or "att_unet"
+data_dir: data
+batch_size: 8
+max_epochs: 20
+encoder_name: resnet34      # ignored for att_unet
+lr: 0.001
+pretrained: true
+experiment_name: attunet_exp2
+precision: 32-true
+model_type: att_unet
