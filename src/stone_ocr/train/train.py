@@ -1,4 +1,3 @@
-# stone_ocr/train.py
 import lightning as L
 import torch
 import argparse

@@ -57,10 +57,6 @@ coverage.xml
 .vscode/
 
 # Data, logs, outputs
-logs/
-outputs/
-data/
-preprocessed_data/
 *.png
 *.jpg
 *.jpeg
@@ -69,6 +65,7 @@ preprocessed_data/
 *.tiff
 *.webp
 *.json
+*.gif
 
 # Environment
 .env
@@ -81,4 +78,9 @@ ENV/
 .DS_Store
 
 # Lightning logs
-lightning_logs/
+logs/*
+!logs/.gitkeep
+outputs/*
+!outputs/.gitkeep
+lightning_logs/*
+!lightning_logs/.gitkeep

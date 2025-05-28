@@ -1,4 +1,3 @@
-# stone_ocr/model.py
 import lightning as L
 from stone_ocr.datamodules import DefectDataModule
 from stone_ocr.models.unet import UNetClassifier
